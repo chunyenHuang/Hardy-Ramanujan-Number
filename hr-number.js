@@ -1,7 +1,7 @@
 console.log('Hardy–Ramanujan Number');
 // the smallest number that is the sum of 2 cubes in n ways
-// n = 2;
-function HRnumber() {
+var n = 2;
+function HRnumber(n) {
   var capacity = 1000000000;
   for (var i = 4; i < capacity; i++) {
     var count = 0;
@@ -12,7 +12,7 @@ function HRnumber() {
         var sum = first + second;
         if (sum === i) {
           count ++;
-          if (count === 2) {
+          if (count === n) {
             return i;
           }
         }
@@ -21,5 +21,5 @@ function HRnumber() {
   }
 }
 console.time('count');
-console.log(HRnumber());
+console.log(HRnumber(n));
 console.timeEnd('count');
