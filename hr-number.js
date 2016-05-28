@@ -1,5 +1,6 @@
 console.log('Hardy–Ramanujan Number');
-
+// the smallest number that is the sum of 2 cubes in n ways
+// n = 2;
 function HRnumber() {
   var capacity = 1000000000;
   for (var i = 4; i < capacity; i++) {
