@@ -1,2 +1,1 @@
-# Hardy-Ramanujan-Number
-[wikipedia](https://en.wikipedia.org/wiki/1729_(number))
+### Hardy-Ramanujan-Number [wikipedia](https://en.wikipedia.org/wiki/1729_(number))
